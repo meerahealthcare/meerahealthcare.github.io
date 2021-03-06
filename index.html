@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meera Healthcare</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.5/css/nanogallery2.min.css"
+        integrity="sha512-6sOT9zKSKq1CYgNMqtcY84tFPDnG1yX5mxwdGQiAVpAomVr2kUKJ//pFeU/KfaZDVCOru5iFOVswpT4RWWF2dQ=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.6.4/plyr.min.css"
+        integrity="sha512-bMLolM8mWTXYQSC2gQOLyDdkmodSAbbRFbDoISUCRS7mFJrP3fBHJo3YR8+2Yy9n7+iVGawVpCe6KVd/E5+TNA=="
+        crossorigin="anonymous" />
+</head>
+
+<body style="font-family: 'Manjari', sans-serif;">
+    <section id="home" class="bg-blue-900 pb-12">
+        <header class="flex justify-center md:justify-between h-full pt-5 px-10">
+            <div class="">
+                <img src="./img/meeraLogo.png" alt="Meera Healthcare Logo" class="w-48">
+            </div>
+            <div id="hamburgerIcon" class="inline-block  md:hidden fixed z-50 right-5 top-5">
+                <div
+                    class="border border-t-2 border-blue-500 w-6 mt-1 transform transition-all ease-in-out rounded shadow">
+
+                </div>
+                <div class="border border-t-2 border-blue-500 w-5 mt-1 ml-1 transform rounded shadow">
+
+                </div>
+                <div
+                    class="border border-t-2 border-blue-500 w-4 mt-1 ml-2 transform transition-all ease-in-out rounded shadow">
+                </div>
+            </div>
+            <nav class="hidden md:block">
+                <ul id="navUl"
+                    class="flex flex-col w-full  md:h-16 justify-center md:justify-end items-center top-0 z-40 md:flex-row text-xl text-blue-50 fixed right-0">
+                    <li><a href="#home" class="font-bold text-blue-300 p-5">HOME</a></li>
+                    <li><a href="#services" class="p-5 hover:font-bold hover:text-blue-300">SERVICES</a></li>
+                    <li><a href="#about-us" class="p-5 hover:font-bold hover:text-blue-300">ABOUT US</a></li>
+                    <li><a href="#contact-us" class="p-5 hover:font-bold hover:text-blue-300">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="hero text-blue-50 m-5 mb-16 text-center" data-aos="fade-down">
+            <h2 class="text-2xl my-2">Meera Healthcare</h2>
+            <h1 class="font-bold text-3xl mt-2 mb-5">Healthcare & Educational Serivices</h1>
+            <a href="#"
+                class="inline-block mb-5 text-xl bg-yellow-400 font-bold text-blue-900 px-5 py-3 hover:bg-yellow-500 shadow">
+                <span class="fas fa-phone-alt"></span>Contact Us</a>
+        </div>
+        <div id="whatsappQuick"
+            class="fixed bottom-10 right-10  z-10 bg-green-500 hover:bg-green-300 rounded-full shadow-lg">
+            <a href="https://api.whatsapp.com/send?phone=919400923701&text="><span
+                    class="fab fa-whatsapp text-white px-5 py-4  text-4xl hover:text-blue-900"></span></a>
+        </div>
+
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="relative bg-green-400 flex justify-center">
+        <div id="servicesPill" class="bg-blue-50 rounded relative md:-top-20 w-full md:w-3/4 p-5 mb-10">
+            <h2 class="font-bold text-center text-3xl">Our Services</h2>
+            <div class="flex flex-wrap justify-evenly p-5 text-center">
+                <div class="w-64 bg-white p-8 m-5 my-10 rounded-lg shadow">
+                    <h2 class="text-6xl text-blue-500"><span class="fas fa-wheelchair"></span></h2>
+                    <h3 class="text-xl font-bold mb-2">Home Care</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iure aperiam quisquam quae,
+                        asperiores
+                        et!</p>
+                    <a href="#"
+                        class="p-2 px-6 bg-blue-500 inline-block m-3 hover:bg-blue-600 text-blue-50 font-bold">More
+                        Info</a>
+                </div>
+                <div
+                    class="flex flex-col justify-center w-64 bg-white p-5 m-4 rounded-lg shadow relative border-blue-500 border-4">
+                    <span class="absolute -left-1 top-0 p-2 bg-blue-500 text-white font-bold">പുതിയത്</span>
+                    <h2 class="text-6xl text-blue-500"><span class="fas fa-chalkboard-teacher"></span></h2>
+                    <h3 class="text-xl font-bold mb-2">Home Tuition</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iure aperiam quisquam quae,
+                        asperiores
+                        et!</p>
+                    <a href="#"
+                        class="p-2 px-8 bg-blue-500 inline-block m-3 hover:bg-blue-600 text-blue-50 font-bold">More
+                        Info</a>
+                </div>
+                <div class="w-64 bg-white p-8 m-5 my-10 rounded-lg shadow">
+                    <h2 class="text-6xl text-blue-500"><span class="fas fa-wheelchair"></span></h2>
+                    <h3 class="text-xl font-bold mb-2"></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iure aperiam quisquam quae,
+                        asperiores
+                        et!</p>
+                    <a href="#"
+                        class="p-2 px-6 bg-blue-500 inline-block m-3 hover:bg-blue-600 text-blue-50 font-bold">More
+                        Info</a>
+                </div>
+                <div class="w-64 bg-white p-8 m-5 my-10 rounded-lg shadow">
+                    <h2 class="text-6xl text-blue-500"><span class="fas fa-plane-departure"></span></h2>
+                    <h3 class="text-xl font-bold mb-2">സ്ട്രോക്ക് പരിപാലനം</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iure aperiam quisquam quae,
+                        asperiores
+                        et!</p>
+                    <a href="#"
+                        class="p-2 px-6 bg-blue-500 inline-block m-3 hover:bg-blue-600 text-blue-50 font-bold">More
+                        Info</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="about-us" class="relative bg-blue-400 flex justify-center">
+        <div id="servicesPill" class="bg-blue-50 rounded relative md:-top-20 w-full md:w-3/4 p-5 mb-10">
+            <h2 class=" font-bold text-center text-3xl">About Us</h2>
+            <div class="flex flex-col md:flex-row justify-center">
+
+                <div id="aboutleft" class="md:w-2/3 m-5 flex flex-col justify-center items-center">
+                    <div class="m-5">
+                        <h2 class="font-bold text-xl">#Why Us?</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores fugiat
+                            necessitatibus minus quidem quaerat incidunt facilis tempora. Enim quisquam non, tenetur
+                            nulla aut placeat explicabo. Ut assumenda ipsam in officia excepturi aliquam sed eaque
+                            facere autem molestiae facilis suscipit soluta dolorum, eum beatae tenetur aspernatur
+                            nostrum id repellendus fuga.</p>
+                    </div>
+                    <div class="m-5">
+                        <h2 class="font-bold text-xl">#Who are we?</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores fugiat
+                            necessitatibus minus quidem quaerat incidunt facilis tempora. Enim quisquam non, tenetur
+                            nulla aut placeat explicabo. Ut assumenda ipsam in officia excepturi aliquam sed eaque
+                            facere autem molestiae facilis suscipit soluta dolorum, eum beatae tenetur aspernatur
+                            nostrum id repellendus fuga.</p>
+                    </div>
+                    <div class="m-5">
+                        <h2 class="font-bold text-xl">#Our Vision?</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolores fugiat
+                            necessitatibus minus quidem quaerat incidunt facilis tempora. Enim quisquam non, tenetur
+                            nulla aut placeat explicabo. Ut assumenda ipsam in officia excepturi aliquam sed eaque
+                            facere autem molestiae facilis suscipit soluta dolorum, eum beatae tenetur aspernatur
+                            nostrum id repellendus fuga.</p>
+                    </div>
+                </div>
+                <div id="aboutRight" class="md:max-w-1/3 flex justify-center items-center m-5">
+                    <video id="player" playsinline controls>
+                        <source src="./img/MeeraIdukkiVison.mp4" type="video/mp4" />
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Gallery" class="relative bg-green-400 flex justify-center max-w-screen">
+        <div id="servicesPill" class="bg-blue-50 rounded relative md:-top-20 w-full md:w-3/4 p-5 mb-10">
+            <h2 class=" font-bold text-center text-3xl">ഗ്യാലറി</h2>
+            <div id="nanogallery2" class="relative" data-nanogallery2='"thumbnailWidth":   "300 XS100 LA400 XL500",
+            "thumbnailHeight":  "200 XS80 LA250 XL350"'>
+                <a href="./img/GalleryIMG5.jpeg">
+                </a>
+                <a href="./img/GalleryIMG1.jpeg">
+                </a>
+                <a href="./img/GalleryIMG2.jpeg">
+                </a>
+                <a href="./img/GalleryIMG3.jpeg">
+                </a>
+                <a href="./img/GalleryIMG4.jpeg">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="contact-us" class="relative bg-blue-400 flex flex-col justify-center items-center">
+        <div id="servicesPill"
+            class="bg-blue-50 rounded relative md:-top-20 w-full md:w-1/2 max-w-xl  p-2 py-5 md:p-5 mb-10 flex flex-col">
+            <h2 class=" font-bold text-center text-3xl">Contact Us</h2>
+            <from class="w-full flex flex-col justify-center">
+                <div class="m-3">
+                    <label for="Name">Name</label>
+                    <input type="text" class="p-3 w-full focus:ring-2 transition ease-in-out"
+                        placeholder="Enter your name">
+                </div>
+                <div class="m-3">
+                    <label for="eamil">Email</label>
+                    <input type="email" class="p-3 w-full focus:ring-2 transition ease-in-out"
+                        placeholder="Enter your email">
+                </div>
+                <div class="m-3">
+                    <label for="Message">Message</label>
+                    <textarea name="Message" id="Message" class="w-full h-32 focus:ring-2 p-3"
+                        placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit"
+                    class="bg-blue-400 hover:bg-blue-500 font-bold text-blue-50 hover:text-blue-900 px-5 py-3 mx-3">Submit</button>
+            </from>
+            <div class="text-center my-5">
+                <p class="md:text-xl"> <span class="fas fa-phone-alt"></span> +91 9400923701</p>
+                <p class="md:text-xl"><span class="far fa-envelope"></span><a href="mailto:manojta05@gmail.com">
+                        manojta05@gmail.com</a>
+                </p>
+                <p class="font-bold text-lg md:text-xl"> For speaking in Hindi : +91 8547951971</p>
+            </div>
+
+        </div>
+        <div class="maps w-full bg-gradient-to-t bg-blue-600 p-10">
+            <h2 class="text-center font-bold text-2xl text-blue-200 mb-5">Reach Us <span
+                    class="fas fa-location-arrow"></span></h2>
+            <div class="flex flex-col justify-between md:flex-row w-full">
+                <div class="w-full">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d982.7700020590405!2d77.15108912923093!3d9.843647520920932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwNTAnMzcuMSJOIDc3wrAwOScwNS45IkU!5e0!3m2!1sen!2sin!4v1614937091669!5m2!1sen!2sin"
+                        width="600" height="450" allowfullscreen="" loading="lazy"
+                        class="ring-4 ring-blue-300 w-full"></iframe>
+                </div>
+                <div class="w-full flex flex-col justify-center items-center text-2xl text-blue-50">
+                    <h2 class=""></h2>
+                    <p class="text-left">Puthoor Building <br> Busstand Junction <br> Nedumkandam P.O <br>
+                        Idukki-685553, Kerala
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-blue-900 p-5 text-center">
+        <p class="font-bold text-blue-50">&copy; Meera Healthcare 2021</p>
+        <p class="font-bold text-blue-50">Powered By <a href="https://infyplus.tech">Infyplus</a></p>
+    </footer>
+    <script src="https://kit.fontawesome.com/226043b1b4.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.5/jquery.nanogallery2.min.js"
+        integrity="sha512-tvpLVnZrWnnNzV2921XEMx4xkFTUF8xg3s+Mi6cvC/R7A6X1FkpBUXPJFa3Xh5uD9BvOZ2tHeYq/5ZqrweW86Q=="
+        crossorigin="anonymous"></script>
+    <!-- video js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.6.4/plyr.min.js"
+        integrity="sha512-GApATlHKZXp6HAyCGllw7SkrJPV+7cLrlI38ATmbT/tY5oJ0p8TcDrRMfUSRoeHjDIThi7r0qBqLeag/ZYTQkg=="
+        crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
