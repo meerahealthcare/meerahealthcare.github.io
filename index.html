@@ -48,12 +48,21 @@
                 </ul>
             </nav>
         </header>
-        <div class="hero text-blue-50 m-5 mb-12 text-center" data-aos="fade-down" data-aos-duration="1000">
-            <h2 class="text-2xl my-2">Meera Healthcare</h2>
-            <h1 class="font-bold text-3xl md:text-4xl mt-2 mb-5 font-sans">Healthcare & Educational Serivices</h1>
-            <a href="#contact-us"
-                class="inline-block  text-xl bg-yellow-400 font-bold text-blue-900 px-5 py-3 hover:bg-yellow-500 shadow">
-                <span class="fas fa-phone-alt"></span>Contact Us</a>
+        <div class="hero text-blue-50 m-5 mb-10 text-center flex flex-col md:flex-row justify-center items-center"
+            data-aos="fade-down" data-aos-duration="1000">
+            <div class="left m-5">
+                <h2 class="hidden md:visible md:block text-2xl">Meera Heath Care</h2>
+                <h1 class="font-bold text-3xl md:text-4xl mt-2 mb-5 font-sans">Healthcare & Educational Serivices</h1>
+                <a href="#contact-us"
+                    class="inline-block  text-xl bg-yellow-400 font-bold text-blue-900 px-5 py-3 hover:bg-yellow-500 shadow">
+                    <span class="fas fa-phone-alt"></span>Contact Us</a>
+            </div>
+            <div class="right relative">
+                <div class="p-10 rounded-full bg-blue-100">
+                    <div class="p-28 md:p-36 rounded-full bg-blue-400"></div>
+                </div>
+                <img src="./img/nurse2.png" alt="nurse image" class="absolute -top-24">
+            </div>
         </div>
         <div id="whatsappQuick"
             class="fixed bottom-10 right-10  z-10 bg-green-500 hover:bg-green-300 rounded-full shadow-lg">
@@ -63,7 +72,7 @@
 
     </section>
     <!-- Services Section -->
-    <section id="latest" class="w-full bg-blue-700 h-full">
+    <!-- <section id="latest" class="w-full bg-blue-700 h-full">
         <img src="./img/new-purple-animation.gif" alt="latest gif" class="w-20 md:w-24 p-3 absolute">
         <div class="content text-center pb-10 py-5 px-5 md:pb-24">
             <h2 class="text-3xl font-bold text-blue-50 font-sans p-2 pt-10">HOME TUITION</h2>
@@ -76,7 +85,7 @@
                     href="./Services/home-tuition.html" class="text-yellow-400 font-bold">[Read More]</a>
             </p>
         </div>
-    </section>
+    </section> -->
     <section id="services" class="relative bg-green-400 flex justify-center">
         <div id="servicesPill" class="bg-blue-50 rounded relative md:-top-20 w-full md:w-3/4 p-5 mb-10">
             <h2 class="font-bold text-center text-3xl">Our Services</h2>
@@ -103,8 +112,17 @@
                 </div>
 
                 <div class="w-64 bg-white p-8 m-5 my-10 rounded-lg shadow">
+                    <h2 class="text-6xl text-blue-500"><span class="fas fa-globe-asia"></span></h2>
+                    <h3 class="text-xl font-bold mb-2">Abroad Services</h3>
+                    <p>വിദേശ മലയാളികൾക്ക് House maid,Baby care തുടങ്ങിയവയ്ക്ക്
+                        വിശ്വസ്തരായ ജോലിക്കാരെ ഒറ്റ സർവ്വീസ് ചാർജ്ജിൽ ആജീവനാന്തം..</p>
+                    <a href="./Services/AbroadServices.html"
+                        class="p-2 px-6 bg-blue-500 inline-block m-3 hover:bg-blue-600 text-blue-50 font-bold">More
+                        Info</a>
+                </div>
+                <div class="w-64 bg-white p-8 m-5 my-10 rounded-lg shadow">
                     <h2 class="text-6xl text-blue-500"><span class="fas fa-plane-departure"></span></h2>
-                    <h3 class="text-xl font-bold mb-2">Job at Abroad</h3>
+                    <h3 class="text-xl font-bold mb-2">Work Abroad</h3>
                     <p>വിദേശത്ത് വീട്ടു ജോലി ,ഹോം നഴ്സിംഗ് തുടങ്ങിയവയ്ക്ക് ജോലികൾക്ക് താല്പര്യമുള്ളവർക്ക് വിദേശജോലിക്ക്
                         വേണ്ട എല്ലാ സഹായങ്ങളും ചെയ്തുകൊടു ..</p>
                     <a href="./Services/job-abroad.html"
@@ -112,19 +130,24 @@
                         Info</a>
                 </div>
 
+
             </div>
         </div>
     </section>
     <section id="about-us" class="relative bg-blue-400 flex justify-center">
         <div id="servicesPill" class="bg-blue-50 rounded relative md:-top-20 w-full md:w-3/4 p-5 mb-10">
             <h2 class=" font-bold text-center text-3xl">About Us</h2>
-            <div class="flex flex-col md:flex-row justify-center overflow-hidden">
-                <div id="aboutleft"
-                    class="md:w-2/3 m-5 flex flex-col justify-center items-center text-center md:text-left">
-                    <div class="m-2 md:m-5" data-aos="fade-left" data-aos-duration="1000">
-                        <h2 class="font-bold text-2xl">#Why Us?</h2>
-                        <p>
-                        <div class="text-xl p-5">1. ആശുപത്രി ഉപകരണങ്ങളുടെ സഹായത്തോടെ വീടുകളിൽ ചികിത്സ സൗകര്യം ഒരുക്കി
+            <div id="aboutInner"
+                class="m-0 md:m-5 flex flex-col justify-center items-center text-center md:text-left overflow-hidden">
+
+                <div class="m-2 md:m-5">
+                    <h2 class="font-bold text-2xl md:text-3xl">#Why Us?</h2>
+
+                    <div class="text-xl p-5 bg-blue-100 m-5 flex flex-col md:flex-row relative md:justify-between items-center "
+                        data-aos="fade-left" data-aos-duration="1000">
+                        <img src="./img/nurse1.jpg" alt="doctor checking" class="rounded-xl md:w-64 p-5">
+                        <p class="md:w-2/3">ആശുപത്രി
+                            ഉപകരണങ്ങളുടെ സഹായത്തോടെ വീടുകളിൽ ചികിത്സ സൗകര്യം ഒരുക്കി
                             പരിചയ
                             സമ്പന്നരായ
                             നേഴ്‌സുമാർ <strong>(Bsc, GNM, ANM & Palliative Nurses)</strong> നിങ്ങളുടെ വീടുകളിൽ
@@ -134,75 +157,84 @@
                             അറേൻജ്‌ ചെയ്യുന്നതും എല്ലാം ഇടുക്കി ജില്ലയുടെ കീഴിൽ നെടുംകണ്ടതിന് <strong>10 km</strong>
                             ചുറ്റളവിൽ മാത്രം
                             ആയിരിക്കും .
-                        </div>
-                        <div class="text-xl p-5">2. കൃത്യമായ രോഗി പരിചരണം , പരിചയ സമ്പന്നരായ നേഴ്‌സുമാർ
+                        </p>
+                    </div>
+                    <div class="text-xl p-5 bg-red-100 m-5 flex flex-col md:flex-row relative justify-between items-center"
+                        data-aos="fade-right" data-aos-duration="1000">
+                        <p class="md:w-2/3"><strong>കൃത്യമായ രോഗി
+                                പരിചരണം </strong>, പരിചയ സമ്പന്നരായ നേഴ്‌സുമാർ
                             കിടപ്പുരോഗികൾക്കും ,
                             പ്രായമായവർക്കും
-                            വീടുകളിൽ നൽകിയാൽ അവരുടെ രോഗാവസ്ഥക്ക് ആരോഗ്യകരമായ മാറ്റങ്ങൾ വരുത്തുവാൻ സാധിക്കും</div>
-                        <div class="text-xl p-5"> 3. കൃത്യമായ ഇടവേളകളിൽ <strong>രക്ത പരിശോധനകളും , ബിപി , ഷുഗർ</strong>
+                            വീടുകളിൽ നൽകിയാൽ അവരുടെ രോഗാവസ്ഥക്ക് ആരോഗ്യകരമായ മാറ്റങ്ങൾ വരുത്തുവാൻ സാധിക്കും
+                        </p>
+                        <img src="./img/care2.jpg" alt="doctor checking" class="rounded-xl md:p-5 bg-cover md:w-64">
+                    </div>
+                    <div class="text-xl p-5 bg-blue-100 m-5 flex flex-col md:flex-row relative justify-between items-center"
+                        data-aos="fade-left" data-aos-duration="1000">
+                        <img src="./img/care1.jpeg" alt="doctor checking" class="rounded-xl md:w-64 p-5">
+                        <p class="md:w-2/3">കൃത്യമായ ഇടവേളകളിൽ <strong>രക്ത പരിശോധനകളും , ബിപി , ഷുഗർ</strong>
                             ,എന്നിവ നടത്തി
                             രോഗാവസ്ഥകളിൽ
                             ഉള്ള
-                            മാറ്റങ്ങളെക്കുറിച്ച് രോഗിയോടും അവരുടെ ബന്ധുക്കളോടും പറഞ്ഞു മനസ്സിലാക്കി കൊടുക്കുന്നു</div>
-                        <div class="text-xl p-5">4. മീര ഹെൽത്ത് കെയറിൽ രജിസ്റ്റർ ചെയ്തിട്ടുള്ള രോഗികൾക്ക്
-                            അടിയന്തരാവസ്ഥയിൽ എല്ലാവിധ
-                            സപ്പോർട്ടോടും കൂടെ രോഗികളെ ആശുപത്രിയിൽ എത്തിക്കുന്നതിന് നേഴ്‌സുമാരുടെ സേവനവും ആംബുലൻസും
-                            ലഭിക്കുന്നതാണ്</div>
-                        <div class="text-xl p-5"> 5. തീര്‍ത്തും പാവപ്പെട്ട രോഗികള്‍ക്ക് അവരുടെ അവസ്ഥ വളരെ
-                            മോശപ്പെട്ടതാണെന്ന്
-                            സ്ഥാപനത്തിന്
-                            ബോധ്യപ്പെട്ടാല്‍ മുകളില്‍ പറഞ്ഞ എല്ലാ സേവനങ്ങളും രോഗിക്ക് സൗജന്യമായി ലഭിക്കുന്നതാണ് .</div>
-                        </p>
+                            മാറ്റങ്ങളെക്കുറിച്ച് രോഗിയോടും അവരുടെ ബന്ധുക്കളോടും പറഞ്ഞു മനസ്സിലാക്കി കൊടുക്കുന്നു</p>
                     </div>
-                    <div class="m-5" data-aos="fade-right" data-aos-duration="1000">
-                        <h2 class="font-bold text-2xl">#Who are we?</h2>
+
+                </div>
+                <div id="aboutWhoAreWe" class="m-5" data-aos="fade-right" data-aos-duration="1000">
+                    <h2 class="font-bold text-2xl md:text-3xl">#Who are we?</h2>
+                    <div class="">
                         <p class="text-xl p-5">രോഗികളെ വീട്ടിലെത്തി പരിചരിക്കാൻ പരിചയസമ്പന്നരായ നേഴ്‌സുമാരുടെ സേവനം
                             ലഭ്യമാക്കുക,
                             വിദ്യാത്ഥികൾക്ക് അവരുടെ വീട്ടിൽ തന്നെ പരിചയസമ്പന്നരായ അധ്യാപകരുടെ സഹായവും മേൽനോട്ടവും
-                            ലഭ്യമാക്കുക തുടങ്ങി ലക്ഷ്യത്തോടെ ഇടുക്കി കേന്ദ്രികൃതമായി പ്രവർത്തിക്കുന്ന ഒരു സ്ഥാപനം ആണ്
-                            മീര ഹോം ഹെൽത്ത് കെയർ.എല്ലാവര്ക്കും ഗുണനിലവാരമുള്ള ആരോഗ്യപരിചരണവും വിദ്യാഭ്യാസവും ലഭ്യമാക്കുക
+                            ലഭ്യമാക്കുക തുടങ്ങി ലക്ഷ്യത്തോടെ ഇടുക്കി കേന്ദ്രികൃതമായി പ്രവർത്തിക്കുന്ന ഒരു സ്ഥാപനം
+                            ആണ്
+                            മീര ഹോം ഹെൽത്ത് കെയർ.എല്ലാവര്ക്കും ഗുണനിലവാരമുള്ള ആരോഗ്യപരിചരണവും വിദ്യാഭ്യാസവും
+                            ലഭ്യമാക്കുക
                             എന്നതാണ് ഞങ്ങളുടെ ലക്ഷ്യം.
                             രോഗികളെ വീട്ടിലെത്തി പരിചരിക്കാൻ പരിചയസമ്പന്നരായ നേഴ്‌സുമാരുടെ സേവനം ലഭ്യമാക്കുക,
                             വിദ്യാത്ഥികൾക്ക് അവരുടെ വീട്ടിൽ തന്നെ പരിചയസമ്പന്നരായ അധ്യാപകരുടെ സഹായവും മേൽനോട്ടവും
-                            ലഭ്യമാക്കുക തുടങ്ങി ലക്ഷ്യത്തോടെ ഇടുക്കി കേന്ദ്രികൃതമായി പ്രവർത്തിക്കുന്ന ഒരു സ്ഥാപനം ആണ്
-                            മീര ഹോം ഹെൽത്ത് കെയർ.എല്ലാവര്ക്കും ഗുണനിലവാരമുള്ള ആരോഗ്യപരിചരണവും വിദ്യാഭ്യാസവും ലഭ്യമാക്കുക
+                            ലഭ്യമാക്കുക തുടങ്ങി ലക്ഷ്യത്തോടെ ഇടുക്കി കേന്ദ്രികൃതമായി പ്രവർത്തിക്കുന്ന ഒരു സ്ഥാപനം
+                            ആണ്
+                            മീര ഹോം ഹെൽത്ത് കെയർ.എല്ലാവര്ക്കും ഗുണനിലവാരമുള്ള ആരോഗ്യപരിചരണവും വിദ്യാഭ്യാസവും
+                            ലഭ്യമാക്കുക
                             എന്നതാണ് ഞങ്ങളുടെ ലക്ഷ്യം.
                             ഞങ്ങളുടെ സ്ഥാപനം മുഖേന ഒരുപാട് പേരെ സഹായിക്കാനും, ഒരുപാട് പേർക്ക് ഞങ്ങളിലൂടെ ജീവിതമാർഗം
                             നേടിക്കൊടുക്കുവാനും സാധിച്ചു </p>
                     </div>
-                    <div class="m-5" data-aos="fade-right" data-aos-duration="1000">
-                        <h2 class="font-bold text-2xl">#Our Vision?</h2>
-                        <p class="text-xl p-5">ജീവിതകാലം മുഴുവന്‍ ആരോഗ്യത്തിനും ക്ഷേമത്തിനുമായി എല്ലാ ആളുകളും തങ്ങളുടെ
-                            മുഴുവന്‍ കഴിവും
-                            നേടുന്ന ഒരു കമ്മ്യൂണിറ്റി. രോഗികള്‍, കമ്മ്യൂണിറ്റിയിലെ ഒരു മൂല്യമുള്ള പങ്കാളി, നല്ല
-                            മാറ്റത്തിന്റെ സൃഷ്ടാക്കള്‍ എന്നിവരില്‍ വിശ്വസിക്കാന്‍ ഞങ്ങള്‍ പ്രവര്‍ത്തിക്കുന്നു.</p>
+                    <div class="w-full">
+                        <video id="player" playsinline controls class="m-5 mx-auto">
+                            <source src="./img/MeeraIdukkiVison.mp4" type="video/mp4" />
+                        </video>
                     </div>
                 </div>
-                <div id="aboutRight" class="md:max-w-1/4 flex flex-col justify-center items-center m-5">
-                    <img src="./img/meeraPoster.jpg" alt="meera poster" class="block p-10" data-aos="fade-left"
-                        data-aos-duration="1000">
-                    <video id="player" playsinline controls class="m-10">
-                        <source src="./img/MeeraIdukkiVison.mp4" type="video/mp4" />
-                    </video>
-                    <img src="./img/meeraPoster3.jpg" alt="meera flyer2" class="block p-10" data-aos="fade-right"
-                        data-aos-duration="1000">
+                <div class="m-5 flex flex-col justify-center " data-aos="fade-right" data-aos-duration="1000">
+                    <h2 class="font-bold text-2xl md:text-3xl">#Our Vision?</h2>
+                    <div class="flex w-full md:w-1/2 justify-center mx-auto">
+                        <div class="w-1/2 mx-2">
+                            <img src="./img/oldLaugh.jpg" alt="oldwomanlaughing" class="rounded-xl">
+                        </div>
+                        <div class="w-1/2 flex flex-col justify-center">
+                            <img src="./img/oldPeopleLaugh1.jpg" alt="oldwomanlaughing" class="rounded-xl my-2">
+                            <img src="./img/oldPeopleLaugh2.jpg" alt="oldwomanlaughing" class="rounded-xl my-2">
+                        </div>
+                    </div>
+                    <p class="text-xl p-5">ജീവിതകാലം മുഴുവന്‍ ആരോഗ്യത്തിനും ക്ഷേമത്തിനുമായി എല്ലാ ആളുകളും തങ്ങളുടെ
+                        മുഴുവന്‍ കഴിവും
+                        നേടുന്ന ഒരു കമ്മ്യൂണിറ്റി. രോഗികള്‍, കമ്മ്യൂണിറ്റിയിലെ ഒരു മൂല്യമുള്ള പങ്കാളി, നല്ല
+                        മാറ്റത്തിന്റെ സൃഷ്ടാക്കള്‍ എന്നിവരില്‍ വിശ്വസിക്കാന്‍ ഞങ്ങള്‍ പ്രവര്‍ത്തിക്കുന്നു.</p>
                 </div>
-
             </div>
+
         </div>
     </section>
     <section id="Gallery" class="relative bg-green-400 flex justify-center max-w-screen">
         <div id="servicesPill" class="bg-blue-50 rounded relative md:-top-20 w-full md:w-3/4 p-5 mb-10">
             <h2 class=" font-bold text-center text-3xl">Gallery</h2>
-            <div id="nanogallery2" class="relative" data-nanogallery2='"thumbnailWidth":   "300 XS100 LA400 XL500",
-            "thumbnailHeight":  "200 XS80 LA250 XL350"'>
+            <div id="nanogallery2" class="relative" data-nanogallery2='"thumbnailWidth":   "300 XS100 LA400 XL500"'>
                 <a href="./img/GalleryIMG5.jpeg">
                 </a>
-                <a href="./img/meeraPoster3.jpg">
+                <a href="./img/GalleryIMG6.jpg">
                 </a>
-                <a href="./img/meeraPoster2.jpg">
-                </a>
-                <a href="./img/meeraPoster3.jpg">
                 </a>
                 <a href="./img/GalleryIMG1.jpeg">
                 </a>
