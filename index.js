@@ -43,7 +43,9 @@ $(document).ready(function () {
 });
 
 // Animate on Scroll
-AOS.init();
+$(document).ready(function () {
+  AOS.init();
+});
 
 // Navbar toggle
 let navUl = document.querySelector("#navUl");
